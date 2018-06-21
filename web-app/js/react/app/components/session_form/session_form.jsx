@@ -10,7 +10,7 @@ class SessionForm extends React.Component {
     return (
       <div>
         <h1>
-          Session Hello!
+          Hello World!
         </h1>
       </div>
     )
