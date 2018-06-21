@@ -3,9 +3,8 @@ import { Provider } from 'react-redux';
 import { HasRouter } from 'react-router-dom'
 import App from './App';
 
-const root = ({ root }) => (
-  console.log(root);
-  <Provider store = {store}>
+const Root = ({ store }) => (
+  <Provider store={store}>
     <HasRouter>
       <App />
     </HasRouter>
