@@ -4,6 +4,6 @@ class UserController {
 
     def create() {
       def user = new User(params)
-      user.save
+      user.save()
     }
 }
